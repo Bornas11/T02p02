@@ -50,7 +50,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-
+                    appLemonade()
                 }
             }
         }
@@ -88,7 +88,7 @@ fun lemonTextAndImage(
     ) {
         Button(
             onClick = onImageClick,
-            shape = RoundedCornerShape(20.dp),
+            shape = RoundedCornerShape(35.dp),
             colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFC2EBD1))
         ) {
             Image(
